@@ -7,4 +7,20 @@ $(function(){
 		vertical:true
 	})
 
+
+
+$('.product__name').slick({
+	slidesToShow: 1,
+	focusOnSelect: true,
+	slidesToScroll: 1,
+	asNavFor: '.product__content'
+ });
+ $('.product__content').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	asNavFor: '.product__name',
+fade: true
+ });
+ 
+
 });

@@ -153,3 +153,31 @@ body{
 .header__content-link--active{
 	font-weight: 700;
 }
+.product{
+	padding-top: 100px;
+}
+.product__inner{
+	display: flex;
+	justify-content: space-between;
+}
+.product__name {
+}
+.product__name--item {
+}
+.product__content {
+	width: 600px;
+}
+.product__content-element {
+}
+.product__content-box {
+}
+.product__content-img {
+}
+.product__content-list {
+}
+.product__content-item {
+}
+.product__content-text {
+}
+.product__content-btn {
+}
