@@ -23,7 +23,7 @@ body{
 .header__top{
 	display: flex;
 	justify-content: space-between;
-	padding-top: 27px;
+	padding-top: 20px;
 
 }
 .logo{
@@ -56,8 +56,11 @@ body{
 .header__content{
 	background-image: url(../img/header-bg.png);
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
+	padding-bottom: 20px;
+	margin-top: -100px;
+	min-height: calc(100vh - 50px);
 
 }
 .title{
@@ -67,9 +70,9 @@ body{
 	line-height: 95px;
 	color: #001E64;
 	max-width: 589px;
-	padding-top: 200px;
+	padding-top: 170px;
 	padding-left: 112px;
-	margin-bottom: 130px;
+	margin-bottom: 60px;
 }
 .header-slider{
 	max-width: 522px;
@@ -101,6 +104,14 @@ body{
 }
 .slick-dots{
 	list-style: none;
+	position: absolute;
+	left: 35px;
+	top: 58px;
+	bottom: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
 }
 .slick-dots button{
 	background-color: transparent;
@@ -116,4 +127,29 @@ body{
 }
 .slick-dots button::before{
 	content: '0';
+}
+.header__content-btn{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 24px;
+	line-height: 32px;
+	padding: 14px 88px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.5);
+	margin-left: 112px;
+	display: inline-block;
+	transform: translateY(-100px);
+	position: absolute;
+}
+.header__content-box{
+	display: flex;
+	margin-left: 100%;
+	margin-right: 30px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #fff;
+}
+.header__content-link--active{
+	font-weight: 700;
 }
