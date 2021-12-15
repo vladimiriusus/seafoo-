@@ -15,6 +15,7 @@ $('.product__name').slick({
 	slidesToScroll: 1,
 	asNavFor: '.product__content',
 	vertical: true,
+	centerMode: true,
 	prevArrow: '<button type="button" class="product-prev"><img src="img/product-prev.svg" alt=""></button>',
 	nextArrow:'<button type="button" class="product-next"><img src="img/product-next.svg" alt=""></button>',
  });
