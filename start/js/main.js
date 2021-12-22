@@ -28,5 +28,8 @@ $('.product__name').slick({
 	arrows: false
  });
  
+ $('.menu__btn').on('click', function(){
+	 $('.menu__list').toggleClass('menu__list--active');
+ });
 
 });
