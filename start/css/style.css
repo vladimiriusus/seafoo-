@@ -399,7 +399,7 @@ line-height: 21px;
 	transition: all .5s;
 }
 .footer-social__link:hover path{
-	fill: #001E64
+	fill: #001E64;
 }
 
 .menu__btn{
